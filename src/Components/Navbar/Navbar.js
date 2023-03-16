@@ -1,11 +1,13 @@
 import React from 'react';
-import './Navbar.css'
+import './Navbar.css';
+import {NavLink} from 'react-router-dom';
+
 
 function Navbar() {
     return( <div className="navbar">
-        <a>Profile</a>
-        <a>Messages</a>
-        <a>Users</a>
+    <NavLink to='/profile'>Profile</NavLink>
+    <NavLink to='/messages'>Messages</NavLink>
+    <NavLink to='/usersnp'>Users</NavLink>
     </div>);
   }
 
