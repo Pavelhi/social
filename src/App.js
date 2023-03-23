@@ -22,7 +22,7 @@ function App() {
           <Route exact path="/dialogs" component={Dialogs} />
         </Switch>
 
-        <Profile />
+       
       </BrowserRouter>
     </div>
   );
