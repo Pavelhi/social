@@ -1,16 +1,12 @@
 import React from "react";
-import './Profile.css'
-import ava from "./img/cat.jpeg";
-import ava_min from "./img/cat.jpeg";
+import './Profile.css';
 import Posts from './Posts/Posts';
+import ProfileInfo from "../profileInfo/ProfileInfo";
 
 function Profile() {
   return (
     <div className="profile">
-      <div className="me">
-        <img src={ava} alt="profile mini photo" />
-        <p>Elon Mask</p>
-      </div>
+      <ProfileInfo/>
       <Posts/>
     </div>
   );
